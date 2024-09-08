@@ -4,7 +4,7 @@ Bem-vindo ao repositório da **Landing Page** desenvolvida para a empresa de tel
 
 ## 🚀 Demonstração
 
-Você pode visualizar a Landing Page em ação <a href="https://davis-leo.github.io/Site-da-Keleuthos/" target="_blank">clicando aqui</a>.
+Você pode visualizar a Landing Page em ação [clicando aqui](https://davis-leo.github.io/Site-da-Keleuthos/).
 
 ## 🛠️ Tecnologias Utilizadas
 
