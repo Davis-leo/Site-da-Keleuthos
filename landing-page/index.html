@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/styles.css">
+    <link rel="stylesheet" href="src/styles/header.css">
+    <link rel="stylesheet" href="src/styles/home.css">
+    <link rel="stylesheet" href="src/styles/servicos.css">
+    <link rel="stylesheet" href="src/styles/testimonials.css">
+    <link rel="stylesheet" href="src/styles/footer.css">
+    <link rel="stylesheet" href="src/styles/slider.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Keleuthos</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <i class="fa-solid fa-display" id="nav_logo"> Keleuthos<p>O caminho para a tecnologia</p></i>
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#servicos">Serviços</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contato">Contato</a>
+                </li>
+            </ul>
+
+            <div id="cta_header">
+                <a href="" id="phone_button">
+                    <button class="btn-orc">
+                        <i class="fa-solid fa-phone"></i>
+                    </button>
+                    Orçamento
+                </a>
+
+                <a href="" id="phone_button">
+                    <button class="btn-os">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                    Consultar OS
+                </a>
+            </div>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#servicos">Serviços</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#sobre">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contato">Contato</a>
+                </li>
+            </ul>
+
+            
+                <a href="" id="orcamento">
+                    <button class="btn-orc">
+                        <i class="fa-solid fa-phone"></i>
+                    </button>
+                    Orçamento
+                </a>
+
+                <a href="" id="os">
+                    <button class="btn-os">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                    Consultar OS
+                </a>
+            
+
+        </div>
+    </header>
+
+    <main id="content">
+        <section id="home">
+        <div class="shape"></div>
+        <div id="cta">
+
+            <h1 class="title">
+                Nossos serviços até
+                <span>você</span>
+            </h1>
+
+            <p class="description">
+                A Keleuthos possui parcerias sólidas para fornecer as mais recentes inovações e tecnologias. Além de fornecer soluções personalizadas, construímos relações duradouras com nossos clientes.
+            </p>
+
+            
+              <div id="cta_buttons">
+                <a href="" id="phone_button">
+                    <button class="btn-default">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </button>
+                    Nosso Endereço
+                </a>
+
+                <a href="tel:986036336" id="phone_button">
+                    <button class="btn-default">
+                        <i class="fa-solid fa-phone"></i>
+                    </button>
+                    (91) 98603-6336
+                </a>
+              </div>
+
+              <h4 class="redes">Nossas redes sociais</h4>
+
+              <div class="social-media-buttons">
+                <a href="">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+        </div>
+
+        <div id="banner">
+            <img src="src/images/hero.png" alt="">
+        </div>
+
+        </section>
+
+        <section id="servicos">
+            <h2 class="section-title">Serviços</h2>
+            <h3 class="section-subtitle">Manutenção, Infraestrutura de TI, Segurança Eletrônica e Energia Solar</h3>
+            
+            <div id="services">
+                <div class="services">
+                    <div class="more">
+                        <i class="fa-solid fa-bolt"></i>
+                    </div>
+
+                    <img src="src/images/painel.jpeg" class="serv-more" alt="Energia Solar">
+
+                    <h3 class="serv-title">Energia Solar</h3>
+
+                    <span class="serv-description">   
+                        Aproveite o sol ao máximo e conomize a longo prazo e contribua para o meio ambiente com energia solar. Nossos sistemas eficientes garantem autonomia energética e redução significativa na conta de luz. Invista em um futuro sustentável para sua casa ou empresa agora mesmo!
+                    </span>
+
+                    <div class="serv-btn">
+                        <h4>Saiba mais</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-angles-right"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="services">
+                    <div class="more">
+                        <i class="fa-solid fa-screwdriver-wrench"></i>
+                    </div>
+
+                    <img src="src/images/nobreak.jpeg" class="serv-more" alt="Manutenção de Nobreak">
+
+                    <h3 class="serv-title">Nobreaks</h3>
+
+                    <span class="serv-description">
+                        Proteja seus equipamentos e evite prejuízos com quedas de energia! A Keleuthos oferece serviços de instalação e manutenção de nobreaks para garantir a segurança e continuidade de suas operações. Invista na tranquilidade do seu negócio hoje mesmo!
+                    </span>
+
+                    <div class="serv-btn">
+                        <h4>Saiba mais</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-angles-right"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="services">
+                    <div class="more">
+                        <i class="fa-solid fa-video"></i>
+                    </div>
+
+                    <img src="src/images/camera.jpeg" class="serv-more" alt="Câmera de segurança">
+
+                    <h3 class="serv-title">Câmeras de Segurança</h3>
+
+                    <span class="serv-description">
+                        Proteja seu lar ou negócio com nossas câmeras de segurança. Nossa instalação profissional garante monitoramento eficiente 24/7, prevenindo incidentes e proporcionando tranquilidade. Invista na segurança de quem você ama e do seu patrimônio agora mesmo!
+                    </span>
+
+                    <div class="serv-btn">
+                        <h4>Saiba mais</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-angles-right"></i>
+                        </button>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div id="services2">
+                <div class="services">
+                    <div class="more">
+                        <i class="fa-solid fa-network-wired"></i>
+                    </div>
+
+                    <img src="src/images/redes.jpeg" class="serv-more" alt="Redes de computadores">
+
+                    <h3 class="serv-title">Infraestrutura de Redes</h3>
+
+                    <span class="serv-description">
+                        Garanta a estabilidade e eficiência da sua rede com nossos serviços de infraestrutura com certificação. Tenha uma conexão confiável e segura para suportar suas operações e evitar prejuizos. Invista na qualidade e tranquilidade do seu sistema de rede hoje mesmo!
+                    </span>
+
+                    <div class="serv-btn">
+                        <h4>Saiba mais</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-angles-right"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="services">
+                    <div class="more">
+                        <i class="fa-solid fa-laptop"></i>
+                    </div>
+
+                    <img src="src/images/notebook.jpeg" class="serv-more" alt="Manutenção de notebook">
+
+                    <h3 class="serv-title">Equipamentos de informática</h3>
+
+                    <span class="serv-description">
+                        Mantenha seus equipamentos funcionando perfeitamente com nossos serviços de manutenção de informática. Evite contratempos e aumente a vida útil de seus dispositivos. Invista na tranquilidade e eficiência do seu ambiente de trabalho com nossa assistência especializada.
+                    </span>
+
+                    <div class="serv-btn">
+                        <h4>Saiba mais</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-angles-right"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="services">
+                    <div class="more">
+                        <i class="fa-solid fa-plug-circle-bolt"></i>
+                    </div>
+
+                    <img src="src/images/eletrica.jpeg" class="serv-more" alt="Infraestrutura elétrica">
+
+                    <h3 class="serv-title">Infraestrutura Elétrica</h3>
+
+                    <span class="serv-description">
+                        Não deixe a infraestrutura elétrica comprometer seu negócio. Nossos serviços garantem instalações seguras e eficientes, proporcionando tranquilidade e evitando falhas. Invista na confiabilidade do seu sistema elétrico com nossa equipe técnica especializada.
+                    </span>
+
+                    <div class="serv-btn">
+                        <h4>Saiba mais</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-angles-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="testimonials">
+            
+            <div id="container">
+            <h2 class="section-title">Conheça nossos Serviços</h2>
+            <h3 class="section-subtitle">A mais de 10 anos atuando em Belém.</h3>
+            <video id="testimonial_chef" width="640" height="360" controls>
+            
+
+                <source src="src/institucional/Institucional.mp4" type="video/mp4">
+                Seu navegador não suporta esse tipo de video.
+            </video>
+            </div>
+
+            <div id="testimonials_content">
+                <h2 class="section-title">
+                    Depoimentos
+                </h2>
+                <h3 class="section-subtitle">
+                    O que os nossos clientes falam sobre nós
+                </h3>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="src/images/suelen_contente.png" class="feedback-avatar" alt="">
+                        <div class="feedback-content">
+                            <p>
+                                Suelen Contente
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                            </p>
+                            <p>
+                                Recomendo, bom atendimento. Sobre a manutenção, foi entregue  no prazo, e o equipamento Nobreak está funcionando  perfeitamente, o preço está conforme o mercado, muito obrigada!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="feedback">
+                        <img src="src/images/bruno_murakami.png" class="feedback-avatar" alt="">
+                        <div class="feedback-content">
+                            <p>
+                                Bruno Murakami
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                            </p>
+                            <p>
+                                Trabalho de muita qualidade e transparência, além do diferencial da Keleuthos em fazer a coleta e entrega a domicílio. Pode ter certeza que caso precise, não hesitarei entrar em contato novamente.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="btn-default">
+                    Ver mais avaliações
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <img src="src/images/wave.svg" alt="">
+
+        <div id="footer_items">
+            <span id="copyright">
+                &copy Copyright 2011 - 2024 KELEUTHOS Informática, Telecom e Energia Solar. Todos os direitos reservados.
+            </span>
+
+            <div class="social-media-buttons">
+                <a href="">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="src/javascript/script.js"></script>
+</body>
+</html>
